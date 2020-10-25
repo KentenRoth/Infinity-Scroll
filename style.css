@@ -17,6 +17,22 @@ h1 {
 	letter-spacing: 3px;
 }
 
+.loading-spinner {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.loading-spinner img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .image-container {
 	margin: 10px 30%;
 }

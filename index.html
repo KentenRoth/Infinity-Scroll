@@ -13,17 +13,11 @@
 	</head>
 	<body>
 		<h1>Infinate Scroll - Unspalsh API</h1>
-
-		<div class="image-container" id="image-container">
-			<img
-				src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
-				alt=""
-			/>
-			<img
-				src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
-				alt=""
-			/>
+		<div class="loading-spinner" id="loading-spinner" hidden>
+			<img src="loading.svg" alt="loading" />
 		</div>
+
+		<div class="image-container" id="image-container"></div>
 		<script src="config.js"></script>
 		<script src="script.js"></script>
 	</body>
