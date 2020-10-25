@@ -14,6 +14,7 @@ function imageLoaded() {
 	imagesLoaded++;
 	if (imagesLoaded === totalImages) {
 		ready = true;
+		loading.hidden = true;
 	}
 }
 
