@@ -66,7 +66,6 @@ window.addEventListener('scroll', () => {
 		ready = false;
 		imagesLoaded = 0;
 		getPhotos();
-		console.log('loaded');
 	}
 });
 
